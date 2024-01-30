@@ -2,12 +2,12 @@ window.addEventListener('scroll', function() {
   const header = document.getElementById('header');
   if (window.scrollY > 50) { // Adjust the 50 to whatever threshold you prefer
       header.classList.add('bg-white');
-      header.classList.remove('bg-transparent');
+    
       header.classList.add('border-b-2', 'border-secondaryc');
   } else {
       header.classList.add('bg-transparent');
       header.classList.remove('border-b-2', 'border-secondaryc');
-      header.classList.remove('bg-white');
+    
   }
 });
 
