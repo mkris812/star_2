@@ -5,7 +5,7 @@ window.addEventListener('scroll', function() {
     
       header.classList.add('border-b-2', 'border-secondaryc');
   } else {
-      header.classList.add('bg-transparent');
+   
       header.classList.remove('border-b-2', 'border-secondaryc');
     
   }
